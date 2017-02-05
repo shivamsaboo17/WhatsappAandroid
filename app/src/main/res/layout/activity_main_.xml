@@ -34,6 +34,13 @@
 
     <include layout="@layout/content_main_" />
 
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar2"
+        app:layout_anchorGravity="center_vertical|center_horizontal"
+        android:layout_gravity="center_vertical|center_horizontal" />
 
 
 </android.support.design.widget.CoordinatorLayout>
